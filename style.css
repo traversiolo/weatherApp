@@ -79,3 +79,33 @@ h2{
     font-size: 19px;
     font-weight: bold;
 }
+@media screen and (max-width:630px) {
+    .card{
+        width: 90%;
+        max-width: 400px;
+        
+        padding:40px 15px 40px 15px;
+    }
+    .search input{
+        width:100px ;
+    }
+    .details{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .col{
+        width: 60%;
+    }
+    #humidity{
+        margin-bottom: 50px;
+    }
+    .col img{
+        width: 60%;
+    }
+    .col div p{
+        padding-left: 40px;
+        font-size: 23px;
+    }
+    
+}
