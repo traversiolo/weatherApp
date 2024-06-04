@@ -1,0 +1,81 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(37, 35, 35);
+}
+.card{
+    width: 90%;
+    max-width: 500px;
+    background: rgb(5,203,151);
+    background: linear-gradient(144deg, rgba(5,203,151,1) 56%, rgba(26,167,221,1) 79%);
+    color: white;
+    border-radius: 20px;
+    margin: 30px auto 20px;
+    padding:40px 30px 40px 30px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    height: 40px;
+    padding: 10px 15px;
+    margin-right: 25px;
+    flex: 1;
+    color: rgb(35, 33, 33);
+    font-size: 23px;
+}
+.search button{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.search button img{
+    width: 18px;
+}
+.error{
+    text-align: left;
+    display: none;
+    margin-top: 12px;
+    padding-left: 14px;
+}
+h1{
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 50px;
+    margin-top: 5px;
+}
+.weather{
+    display: none;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.col img{
+    margin-right: 10px;
+}
+.col div p{
+    font-size: 19px;
+    font-weight: bold;
+}
